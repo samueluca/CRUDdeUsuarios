@@ -1,4 +1,4 @@
-package com.slsf.crud_usuarios;
+package com.slsf.crud_usuarios_java;
 
 import javafx.application.Application;
 

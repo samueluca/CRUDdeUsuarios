@@ -1,4 +1,4 @@
-package com.slsf.crud_usuarios;
+package com.slsf.crud_usuarios_java;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -12,7 +12,7 @@ public class MainApplication extends Application {
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(MainApplication.class.getResource("user-list-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 640, 480);
-        stage.setTitle("CRUD Usuarios");
+        stage.setTitle("CRUD Usuários");
         stage.setScene(scene);
         stage.show();
     }

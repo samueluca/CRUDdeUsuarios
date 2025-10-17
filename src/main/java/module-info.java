@@ -1,4 +1,4 @@
-module com.slsf.crud_usuarios {
+module com.slsf.crud_usuarios_java {
     requires javafx.controls;
     requires javafx.fxml;
     requires java.sql;
@@ -8,11 +8,11 @@ module com.slsf.crud_usuarios {
     requires com.dlsc.formsfx;
     requires net.synedra.validatorfx;
     requires org.kordamp.bootstrapfx.core;
-    requires java.desktop;
+    requires jdk.compiler;
 
-    opens com.slsf.crud_usuarios to javafx.fxml;
-    opens com.slsf.crud_usuarios.controller to javafx.fxml;
-    opens com.slsf.crud_usuarios.model to javafx.base;
+    opens com.slsf.crud_usuarios_java to javafx.fxml;
+    opens com.slsf.crud_usuarios_java.controller to javafx.fxml;
+    opens com.slsf.crud_usuarios_java.model to javafx.base;
 
-    exports com.slsf.crud_usuarios;
+    exports com.slsf.crud_usuarios_java;
 }
